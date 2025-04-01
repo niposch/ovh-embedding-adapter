@@ -1,0 +1,4 @@
+*\.exe
+\.env
+*.zip
+__pycache__/

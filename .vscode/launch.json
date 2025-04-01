@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Debug server.py",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/server.py",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Go Debugger: Debug server.go",
+            "type": "go",
+            "request": "launch",
+            "mode": "debug",
+            "program": "${workspaceFolder}/main.go"
+        }
+    ]
+}
